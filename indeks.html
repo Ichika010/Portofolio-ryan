@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio Web</title>
+    <link rel="icon" type="image/png" href="image/hutao1.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+
+    <style>
+      body{
+        min-height: 2000px;
+        background-color: #f4aee2;
+      }
+
+      .jumbotron{
+        padding-top: 2rem;
+        background-color: #23bdf9;
+      }
+
+      .lead {
+        font-size: 2rem;
+        font-weight: 300;
+      }
+
+      .row {
+        padding-bottom: 2rem;
+      }
+
+      .card {
+      border: 1px solid #ddd; 
+      border-radius: 8px; 
+      padding: 20px; 
+      margin: 20px; 
+      background-color: #fff; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      }
+
+      /* Gaya untuk perangkat dengan lebar lebih dari 600px */
+      @media (min-width: 600px) {
+        .container {
+        width: 80%;
+        margin: auto;
+        }
+      }
+
+      /* Gaya untuk perangkat dengan lebar di bawah atau sama dengan 600px */
+      @media (max-width: 600px) {
+        .container {
+          width: 95%;
+          margin: auto;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+      <div class="container">
+        <a class="navbar-brand" href="#home">PASHA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START JUMBOTRON -->
+    <section class="jumbotron text-center">
+      <img class="rounded-circle img-thumbnail" src="image/ryan.jpg" alt="" width="200px">
+      <h1 class="display-4">Muhammad Ryan Pasha</h1>
+      <p class="lead">Junior Web Developer</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L48,133.3C96,171,192,245,288,256C384,267,480,213,576,202.7C672,192,768,224,864,213.3C960,203,1056,149,1152,122.7C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+    <!-- END JUMBOTRON -->
+
+    <!-- START ABOUT -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center">
+          <h2>About Me</h2>
+        </div>
+        <div class="row justify-content-center fs-5">
+          <div class="col">
+            <p>Sebagai seorang web developer pemula, Saya sedang berada di awal perjalanan yang menarik dalam dunia pengembangan web. Dengan semangat untuk belajar dan berkembang, Saya mulai memahami dasar-dasar HTML, CSS, dan JavaScript, yang merupakan fondasi utama dalam pembuatan website. Kepemilikan keterampilan ini membuka pintu ke kemungkinan-kemungkinan baru untuk menciptakan situs web yang responsif dan interaktif.</p>
+          </div>
+          <div class="col">
+            <p>Sebagai web developer pemula, Saya tengah berada di awal perjalanan yang menjanjikan, dipenuhi dengan pembelajaran dan eksplorasi teknologi web. Antusiasme Anda dalam memahami dasar HTML, CSS, dan JavaScript menjadi fondasi kuat. Keterbukaan Saya terhadap feedback dan kegigihan dalam mengatasi tantangan coding menunjukkan potensi besar untuk pertumbuhan dan inovasi di masa depan.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT -->
+
+    <!-- START PROJECT -->
+    <section id="project">
+      <div class="container">
+        <h2 class="text-center mb-5">My Project</h2>
+        <div class="row  justify-content-around" >
+          <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="img-fluid" src="image/project.png" alt="">
+            <h3 class="mb-3">Overlord Joki</h3>
+            <p>Sebuah Web Joki Game Mobile Legends Bang-Bang yang dibuat menggunakan bootstrap.</p>
+            <a class="btn btn-primary" href="https://overlordjoki.github.io/">View Project</a>
+          </div>
+          </div>
+          <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="img" src="image/cs.jpeg" alt="">
+            <h3 class="mb-3">Project 2</h3>
+            <p>Project Segera hadir</p>
+            <a class="btn btn-primary" href="#">View Project</a>
+          </div>
+          </div>
+          <!-- <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="img-fluid" src="images/project-3.png" alt="">
+            <h3 class="mb-3">Project 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget velit vel nulla suscipit vestibulum. Sed euismod, sapien id sagittis dictum, nisl sem porttitor lacus, vel pharetra sapien nibh vel velit.</p>
+            <a class="btn btn-primary" href="#">View Project</a>
+          </div>
+          </div> -->
+        </div>
+      </div>
+    </section>    
+    <!-- END PROJECT -->
+
+    <!-- START CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="text-center mb-5">Contact Me</h2>
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END CONTACT -->
+
+    <!-- START FOOTER -->
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://facebook.com/yourprofile"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://Twitter.com/yourprofile"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://instagram.com/pasharyan_"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://linkedin/yourprofile"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <!-- Github -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://github.com/Ichika010"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+    
+      <!-- Copyright -->
+      <div class="container-fluid bg-dark text-light shadow" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2024 Copyright:
+        <a class="text-light" width="100%" href="https://mdbootstrap.com/">Muhammad Ryan Pasha</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    
+    <!-- END FOOTER -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
